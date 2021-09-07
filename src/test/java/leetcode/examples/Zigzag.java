@@ -43,6 +43,9 @@ public class Zigzag
         assertTrue(result.equals("ACBD"));
 
     }
+//  --------------------------------
+//    Code Starts
+//  --------------------------------
 
     public String convert(String s, int numRows) {
         if (numRows == 1) return s;
@@ -86,17 +89,9 @@ public class Zigzag
         int maxdown = stringIndex + numRows;
         for (int i = stringIndex; i < s.length() && i < maxdown;  i++) {
             rows[rowIndex++].append(s.charAt(i));
-//            rowIndex++;
-//            stringIndex++;
         }
     }
 
-
-
-
 }
-
-
-
 
 

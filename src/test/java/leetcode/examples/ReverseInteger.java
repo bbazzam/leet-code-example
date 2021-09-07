@@ -19,7 +19,9 @@ public class ReverseInteger {
         int res = reverse(0);
         assert(res == 0);
     }
-
+//  --------------------------------
+//    Code Starts
+//  --------------------------------
     public int reverse(Integer x) {
         if (x == 0) {
             return 0;
