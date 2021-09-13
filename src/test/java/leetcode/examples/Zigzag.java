@@ -35,6 +35,7 @@ public class Zigzag
         assertTrue(result.equals("AB"));
 
     }
+
     @Test
     public void test4() {
 
@@ -43,6 +44,24 @@ public class Zigzag
         assertTrue(result.equals("ACBD"));
 
     }
+    @Test
+    public void test5() {
+
+        String result = convert("SONYISHIRING", 3);
+        System.out.println(result);
+        assertTrue(result.equals("SIROYSIIGNHN"));
+
+    }
+
+    @Test
+    public void test6() {
+
+        String result = convert("SONYISHIRING", 4);
+        System.out.println(result);
+        assertTrue(result.equals("SIROYSIIGNHN"));
+
+    }
+
 //  --------------------------------
 //    Code Starts
 //  --------------------------------
